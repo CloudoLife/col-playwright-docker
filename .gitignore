@@ -12,6 +12,8 @@
 # Recursively allowlist its contents
 # !NotIgnoredFolder/**
 
+!workflows/**
+
 !.dockerignore
 !.gitignore
 
