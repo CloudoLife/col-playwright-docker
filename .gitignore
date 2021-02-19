@@ -1,0 +1,34 @@
+
+# First, Denylist ignore everything
+*
+
+# Now, Allowlist allow anything that's a directory, but not a file.
+!*/
+
+# Allowlist the file or folder
+# !NotIgnoredFile
+# !NotIgnoredFolder/
+
+# Recursively allowlist its contents
+# !NotIgnoredFolder/**
+
+!.dockerignore
+!.gitignore
+
+!docker-compose.yml
+!Dockerfile
+
+!package-lock.json
+!package.json
+
+!README.md
+
+!tsconfig.json
+
+!*.js
+!*.ts
+
+
+
+
+
