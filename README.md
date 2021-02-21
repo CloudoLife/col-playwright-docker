@@ -10,7 +10,7 @@ $ git clone https://github.com/CloudoLife/col-playwright-docker.git
 
 $ cd col-playwright-docker
 
-$ docker build 
+$ docker build .
 # Or run docker-compose build
 ```
 
